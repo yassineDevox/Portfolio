@@ -1,21 +1,50 @@
-const graphql = require("graphql");
+const graphql = require("graphql")
+const axios = require("axios")
 const LyricType = require('./types/lyric')
 const SongType = require('./types/song')
-const LanguageType = require('./types/language')
-const { GraphQLObjectType } = graphql;
+
+const { GraphQLObjectType, GraphQLString, GraphQLID } = graphql;
 
 const RootQueryType = new GraphQLObjectType({
-    name: "mutation",
+
+    name: "Mutation",
     fields: {
-        lyric: {
-            type: LyricType
+        addSong: {
+            type: SongType,
+            args: {
+                title: { type: GraphQLString }
+            },
+            resolve(parentValue, args) {
+
+
+            }
         },
-        song: {
-            type: SongType
+        addLyricToSong: {
+            type: SongType, args: {
+                content: { type: GraphQLString },
+                songId: { type: GraphQLID }
+            },
+            resolve(parentValue, args) {
+
+
+            }
         },
-        language: {
-            type: LanguageType
-        }
+        likeLyric: {
+            type: LyricType,
+            args: { id: { type: GraphQLID } },
+            resolve(parentValue, args) {
+
+
+            }
+        },
+        deleteSong: {
+            type: SongType,
+            args: { id: { type: GraphQLID } },
+            resolve(parentValue, args) {
+
+
+            }
+        },
     }
 })
 
