@@ -1,51 +1,16 @@
 const graphql = require("graphql")
 const axios = require("axios")
 const LyricType = require('./types/lyric')
-const SongType = require('./types/song')
+const SongType = require('./types/experience')
 
 const { GraphQLObjectType, GraphQLString, GraphQLID } = graphql;
 
-const RootQueryType = new GraphQLObjectType({
+const Mutation = new GraphQLObjectType({
 
     name: "Mutation",
     fields: {
-        addSong: {
-            type: SongType,
-            args: {
-                title: { type: GraphQLString }
-            },
-            resolve(parentValue, args) {
-
-                
-            }
-        },
-        addLyricToSong: {
-            type: SongType, args: {
-                content: { type: GraphQLString },
-                songId: { type: GraphQLID }
-            },
-            resolve(parentValue, args) {
-
-                
-            }
-        },
-        likeLyric: {
-            type: LyricType,
-            args: { id: { type: GraphQLID } },
-            resolve(parentValue, args) {
-
-
-            }
-        },
-        deleteSong: {
-            type: SongType,
-            args: { id: { type: GraphQLID } },
-            resolve(parentValue, args) {
-
-
-            }
-        },
+        //operations for admin dashboard app
     }
 })
 
-module.export = RootQueryType;
+module.export = Mutation;
