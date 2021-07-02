@@ -16,7 +16,7 @@ const RootQueryType = new GraphQLObjectType({
             },
             resolve(parentValue, args) {
 
-
+                
             }
         },
         addLyricToSong: {
@@ -26,7 +26,7 @@ const RootQueryType = new GraphQLObjectType({
             },
             resolve(parentValue, args) {
 
-
+                
             }
         },
         likeLyric: {
