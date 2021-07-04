@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="189.244" height="26.573" viewBox="0 0 189.244 26.573">
+<svg xmlns="http://www.w3.org/2000/svg" width="212.926" height="26.573" viewBox="0 0 212.926 26.573">
   <g id="Group_14" data-name="Group 14" transform="translate(-1748.84 -2809)">
     <g id="Group_13" data-name="Group 13" transform="translate(1748.84 2809)">
       <g id="Group_12" data-name="Group 12" transform="translate(12.845)">
@@ -12,6 +12,8 @@
         <text id="y" transform="translate(164.399 20.497)" fill="#e9b949" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">y</tspan></text>
       </g>
       <text id="_" data-name="&lt;" transform="translate(0.255 21.479) rotate(-0.974)" fill="rgba(0,0,0,0.65)" font-size="15" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.22em"><tspan x="0" y="0">&lt;</tspan></text>
+      <text id="_2" data-name="&gt;" transform="translate(199.158 21.413) rotate(3)" fill="rgba(0,0,0,0.65)" font-size="15" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.22em"><tspan x="0" y="0">&gt;</tspan></text>
+      <text id="_3" data-name="/" transform="translate(191.968 20.871)" fill="rgba(0,0,0,0.65)" font-size="19" font-family="Tahoma" letter-spacing="0.22em"><tspan x="0" y="0">/</tspan></text>
     </g>
     <path id="Path_4" data-name="Path 4" d="M0,0H102.922" transform="translate(1776.281 2833.327)" fill="none" stroke="#e9b949" stroke-width="1"/>
   </g>
