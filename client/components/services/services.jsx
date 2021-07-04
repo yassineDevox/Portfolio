@@ -1,6 +1,7 @@
 import React from 'react'
+import Service from './service'
 
-export const Services = () => {
+export const Services = ({servicesData}) => {
     return (
         <section class="section bg-grey">
         <div class="section-title">
@@ -8,44 +9,7 @@ export const Services = () => {
           <div class="underline"></div>
         </div>
         <div class="section-center services-center">
-          {/* <!-- single  service--> */}
-          <article class="service">
-            <i class="fas fa-code service-icon"></i>
-            <h4>web development</h4>
-            <div class="underline"></div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-              at repellendus eius omnis asperiores laborum reprehenderit quis
-              pariatur quidem placeat.
-            </p>
-          </article>
-          {/* <!-- end of single service -->
-          <!-- single  service--> */}
-          <article class="service">
-            {/* <!-- fab --> */}
-            <i class="fab fa-sketch service-icon"></i>
-            <h4>web design</h4>
-            <div class="underline"></div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-              at repellendus eius omnis asperiores laborum reprehenderit quis
-              pariatur quidem placeat.
-            </p>
-          </article>
-          {/* <!-- end of single service -->
-          <!-- single  service--> */}
-          <article class="service">
-            {/* <!-- fab --> */}
-            <i class="fab fa-android service-icon"></i>
-            <h4>app design</h4>
-            <div class="underline"></div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-              at repellendus eius omnis asperiores laborum reprehenderit quis
-              pariatur quidem placeat.
-            </p>
-          </article>
-          {/* <!-- end of single service --> */}
+          {servicesData.map(s=><Service data={s} key={s.id} />)}
         </div>
       </section>
     )
