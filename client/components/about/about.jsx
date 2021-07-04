@@ -6,7 +6,10 @@ export const About = ({infos}) => {
         <div class="section-center about-center">
           {/* <!-- about img --> */}
           <article class="about-img">
-            <img src={infos.aboutAvatar} class="hero-photo" alt="" />
+            <img  
+              src={infos.aboutAvatar} 
+              class="hero-photo" alt="" 
+            />
           </article>
           {/* <!-- about info --> */}
           <article class="about-info">
