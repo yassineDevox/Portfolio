@@ -1,19 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="212.926" height="26.573" viewBox="0 0 212.926 26.573">
-  <g id="Group_14" data-name="Group 14" transform="translate(-1748.84 -2809)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207.244" height="43.749" viewBox="0 0 207.244 43.749">
+  <defs>
+    <filter id="_Yasine" x="11.845" y="0" width="113" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rass" x="113.147" y="1.749" width="77" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="y" x="176.243" y="0.497" width="31" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_" x="0" y="6.258" width="31.306" height="36.221" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-1739.84 -2803)">
     <g id="Group_13" data-name="Group 13" transform="translate(1748.84 2809)">
       <g id="Group_12" data-name="Group 12" transform="translate(12.845)">
         <path id="Path_3" data-name="Path 3" d="M0,0" transform="translate(11.602 26.573)" fill="none" stroke="rgba(36,207,190,0.57)" stroke-width="1"/>
         <g id="Group_10" data-name="Group 10" transform="translate(0)">
-          <text id="_Yasine" data-name=" Yasine" transform="translate(0 21)" fill="#222" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">Y</tspan><tspan y="0" font-size="21">asine</tspan></text>
+          <g transform="matrix(1, 0, 0, 1, -21.84, -6)" filter="url(#_Yasine)">
+            <text id="_Yasine-2" data-name=" Yasine" transform="translate(21.84 27)" fill="#222" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">Y</tspan><tspan y="0" font-size="21">asine</tspan></text>
+          </g>
           <g id="Group_11" data-name="Group 11" transform="translate(100.302 0.749)">
-            <text id="Rass" transform="translate(0 21)" fill="#e9b949" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">R</tspan><tspan y="0" font-size="18" letter-spacing="0.286em">ass</tspan></text>
+            <g transform="matrix(1, 0, 0, 1, -122.15, -6.75)" filter="url(#Rass)">
+              <text id="Rass-2" data-name="Rass" transform="translate(122.15 27.75)" fill="#e9b949" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">R</tspan><tspan y="0" font-size="18" letter-spacing="0.286em">ass</tspan></text>
+            </g>
           </g>
         </g>
-        <text id="y" transform="translate(164.399 20.497)" fill="#e9b949" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">y</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, -21.84, -6)" filter="url(#y)">
+          <text id="y-2" data-name="y" transform="translate(186.24 26.5)" fill="#e9b949" font-size="20" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.24em"><tspan x="0" y="0">y</tspan></text>
+        </g>
       </g>
-      <text id="_" data-name="&lt;" transform="translate(0.255 21.479) rotate(-0.974)" fill="rgba(0,0,0,0.65)" font-size="15" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.22em"><tspan x="0" y="0">&lt;</tspan></text>
-      <text id="_2" data-name="&gt;" transform="translate(199.158 21.413) rotate(3)" fill="rgba(0,0,0,0.65)" font-size="15" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.22em"><tspan x="0" y="0">&gt;</tspan></text>
-      <text id="_3" data-name="/" transform="translate(191.968 20.871)" fill="rgba(0,0,0,0.65)" font-size="19" font-family="Tahoma" letter-spacing="0.22em"><tspan x="0" y="0">/</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#_)">
+        <text id="_2" data-name="&lt;" transform="translate(9.25 27.48) rotate(-0.97)" fill="rgba(0,0,0,0.65)" font-size="15" font-family="Tahoma-Bold, Tahoma" font-weight="700" letter-spacing="0.22em"><tspan x="0" y="0">&lt;</tspan></text>
+      </g>
     </g>
     <path id="Path_4" data-name="Path 4" d="M0,0H102.922" transform="translate(1776.281 2833.327)" fill="none" stroke="#e9b949" stroke-width="1"/>
   </g>
