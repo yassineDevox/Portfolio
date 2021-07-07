@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const LatestWorks = () => {
+const LatestWorks = () => {
     return (
         <section class="section projects">
         {/* <!-- section title --> */}
@@ -64,3 +64,5 @@ export const LatestWorks = () => {
       </section>
     )
 }
+
+export default LatestWorks;
