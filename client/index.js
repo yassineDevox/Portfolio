@@ -6,6 +6,7 @@ import {Route,Router,IndexRoute,hashHistory} from "react-router";
 import App from "./app";
 import HomePage from "./pages/home";
 
+
 //to bind apollo with react 
 const client = new ApolloClient({});
 

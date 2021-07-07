@@ -7,7 +7,9 @@ export const Footer = ({socialLinks}) => {
         <footer class="footer">
            <SocialIcons socialLinks={socialLinks} />
 
-            <p>&copy; <span id="date"></span> John Doe. All rights reserved.</p>
+            <p>&copy; <span id="date"></span> Yassine Rassy. All rights reserved.</p>
         </footer>
     )
 }
+
+export default Footer;
