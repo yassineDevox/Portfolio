@@ -1,27 +1,35 @@
 const express = require("express");
 const expressGraphQL = require("express-graphql");
-const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-const models = require("./models");
-const schema = require("./schemas/schema");
+// const models = require("./models");
+// const schema = require("./schemas/schema");
 
 const app = express();
+const db =require('./Utils/db');
 
-//Replace with your mongoLab URI 
-//Create instance and get the uri from the website (mlab.com)
-//Do make sure you're using a valid email address 
-//Pick amazon service and vergin for a free try
-//Connect it via driver & create a database user(to use his credentials with RO )
-const MONGO_URI = "mongodb://<dbUser>:<dbPassword>@ds0214145.mlab.com:21189/dbName";
-if (!MONGO_URI)
-        throw new Error('You must provide a MongoLab URI');
+const MONGO_URI = "mongodb://localhosl:27017/ciriculumDB";
+// Connect to Mongo on start
+db.connect(MONGO_URI, function(err) {
+  if (err) {
+    console.log('Unable to connect to Mongo.')
+    process.exit(1)
+  } else {
+    app.listen(3000, function() {
+      console.log('Listening on port 3000...')
+    })
+  }
+})
 
-//setup mongoose
-mongoose.Promise = global.Promise;
-mongoose.connect(MONGO_URI);
-mongoose.connection
-        .once(
-        'open', () => console.log(
-                'Connected to MongoLab'
-                )
-        )
+// app.use(bodyParser.json());
+// app.use('/graphql', expressGraphQL({
+//   schema,
+//   graphiql: true
+// }));
+
+// //create the bundle js 
+// const webpackMiddleware = require('webpack-dev-middleware');
+// const webpack = require('webpack');
+// const webpackConfig = require('../webpack.config.js');
+// app.use(webpackMiddleware(webpack(webpackConfig)));
+
+// module.exports = app;
